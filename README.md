@@ -1,1 +1,3 @@
 # Padang-Restaurant
+
+@copyright BWA
