@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resto</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="/assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/assets/font-awesome/css/all.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav fitur">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+            <div class="dropdown .restaurant-based-city-dropdown">
+                <a class="btn " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown">
+                  Category >
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#">About us</a>
+        </div>
+        <div class="logo">
+            <img src="/assets/Home.svg" alt="">
+            <p>Resto</p>
+        </div> 
+        <div class="searchlogin">
+            <input type="text" placeholder="Search Your Favorite Food">
+            <a href="#">Login</a>
+        </div>
+    </nav>
+    <div class="thumbnail">
+        <div class="thumbnail-caption">
+            <div class="thumbnail-head">
+                <h6 class="thumbnail-rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="rating-recap"> 5.0</i> (5.2K+)</h6>
+                <h6 class="thumbnail-title">Padang Restaurant</h6>
+                <h6 class="thumbnail-range">IDR 49.999 - IDR 560.000</h6>
+                <h6 class="thumbnail-loc"><i class="fa-solid fa-location-dot"></i>  Padang, Indonesia</h6>
+            </div>
+            <button type="button" class="btn btn-secondary">Make Reservation ></button>
+            <p><i><img src="/assets/alert.svg"></i> No extra cost</p>
+        </div>
+        <img class="img-first" src="/assets/thumbnail1.svg" alt="">
+        <img class="img-second" src="/assets/thumbnail2.png" alt="">
+    </div>
+    <div class="why-us">
+        <p>SPECIAL BENEFIT FOR YOU</p>
+        <h3>Why Should Choose Us?</h3>
+        <div class="advantages">
+            <div class="card card-edit" onmouseover="setHover(true,'hover1')" onmouseout="endHover(true)">
+                <center><img src="/assets/Discount.svg" class="card-img-top" alt="..."></center>
+                <div class="card-body card-body-edit">
+                    <h5 class="card-title">Extra Discount</h5>
+                    <p class="card-text">Get your special discount by using our reservation</p>
+                    <div class="card-link onhover1">
+                        <a href="#" class="btn">View Details ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-edit" onmouseover="setHover(true,'hover2')" onmouseout="endHover(true)">
+                <center><img src="/assets/eat.svg" class="card-img-top card-img-edit" alt="..."></center>
+                <div class="card-body">
+                    <h5 class="card-title">Come and Eat</h5>
+                    <p class="card-text">Get your own table quickly & without waiting in line</p>
+                    <div class="card-link onhover2">
+                        <a href="#" class="btn">View Details ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-edit" onmouseover="setHover(true,'hover3')" onmouseout="endHover(true)">
+                <center><img src="/assets/No-Extra-Fee.svg" class="card-img-top" alt="..."></center>
+                <div class="card-body">
+                    <h5 class="card-title">No Extra Fee</h5>
+                    <p class="card-text">Get tax free if you want to order food and make a reservation</p>
+                    <div class="card-link onhover3">
+                        <a href="#" class="btn">View Details ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-edit card-last" onmouseover="setHover(true,'hover4')" onmouseout="endHover(true)">
+                <center><img src="/assets/Discount.svg" class="card-img-top" alt="..."></center>
+                <div class="card-body">
+                    <h5 class="card-title">Guaranteed Cleanliness</h5>
+                    <p class="card-text">We ensure the cleanliness of the place as well as the food</p>
+                    <div class="card-link onhover4">
+                        <a href="#" class="btn">View Details ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="most-popular">
+        <div class="desc">
+            <h6>Top 3 Featured Restaurant</h6>
+            <h3>Most Popular Restaurants</h3>
+            <p>The best restaurant in our opinion is how much customers like it in terms of place, price, comfort and of course the taste of the food itself.</p>
+            <a href="#" class="btn">View All Restaurant ></a>
+        </div>
+        <div class="foto photos1">
+            <div class="descresto">
+                <div class="restodetail">
+                    <h6 class="rating thumbnail-rating"><i class="fa-solid fa-star"></i><i class="rating-recap"> 5.0</i> (7.6K+)</h6>
+                    <h6 class="thumbnail-title resto-name">Blind Balorant</h6>
+                    <p><i class="fa-solid fa-location-dot"></i> Jakarta, Indonesia</p>
+                </div>
+                <div class="arrowlink">
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="foto photos2" onmouseover="setHover(true,'img2')" onmouseout="endHover(true)"></div>        
+        <div class="foto photos3" onmouseover="setHover(true,'img3')" onmouseout="endHover(true)"></div>
+    </div>
+    <div class="restaurant-based-city">
+        <div>
+            <div class="restaurant-based-city-title">
+                <h6>RESTAURANT BASED BY CITY</h6>
+                <h4>Restaurant Near You</h4>
+            </div>
+            <div class="restaurant-city-button">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-location-dot"></i>
+                  Jakarta, Indonesia
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="restaurant-available">
+            <div class="restoimage img1">
+                <div class="descresto">
+                    <div class="restodetail">
+                        <h6 class="rating thumbnail-rating"><i class="fa-solid fa-star"></i><i class="rating-recap"> 5.0</i> (6.6K+)</h6>
+                        <h6 class="thumbnail-title resto-name">Batavia Restaurant</h6>
+                        <h6 class="thumbnail-range resto-range">IDR 29.000 - IDR 259.999</h6>
+                    </div>
+                    <div class="arrowlink">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="restoimage img2">
+                <div class="descresto">
+                    <div class="restodetail">
+                        <h6 class="rating thumbnail-rating"><i class="fa-solid fa-star"></i><i class="rating-recap"> 5.0</i> (3.6K+)</h6>
+                        <h6 class="thumbnail-title resto-name">Split Ascent Restaurant</h6>
+                        <h6 class="thumbnail-range resto-range">IDR 49.999 - IDR 560.000</h6>
+                    </div>
+                    <div class="arrowlink">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="restoimage img3">
+                <div class="descresto">
+                    <div class="restodetail">
+                        <h6 class="rating thumbnail-rating"><i class="fa-solid fa-star"></i><i class="rating-recap"> 5.0</i> (11K+)</h6>
+                        <h6 class="thumbnail-title resto-name">Daza Fracture Restaurant</h6>
+                        <h6 class="thumbnail-range resto-range">IDR 29.999 - IDR 560.000</h6>
+                    </div>
+                    <div class="arrowlink">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="allrestaurant">
+                <a href="#">View All Restaurant ></a>
+            </div>
+        </div>
+    </div>
+    <div class="expertchef">
+        <div class="chefitem">
+            <div class="chefimg"></div>
+            <div class="experience">
+                <div class="card card-edit">
+                <center><img src="/assets/experience.svg" class="card-img-top card-img-edit" alt="..."></center>
+                    <div class="card-body">
+                        <h5 class="card-title">12 Years</h5>
+                        <p class="card-text">Experience</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="/assets/chefloc.svg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Chef at restaurant:</h5>
+                            <p class="card-text">Pearl Dolphin</p>
+                            <a href="#">View Details ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="allchef">
+            <h6>TOP 4 EXPERT CHEFS</h6>
+            <h4>Expert Chefs in Fuddy</h4>
+            <div class="chefdetail chefdetail1" onmouseover="addid('chefhover1')" onmouseout="endHover(true)">
+                <div class="chefposition">
+                    <h6>PIZZA</h6>
+                    <h5>Phoenix Satcheup</h5>
+                    <p><i class="fa-solid fa-location-dot"></i> Jakarta, Indonesia</p>
+                </div>
+                <a href="#" class="detail1">Profile Details ></a>
+            </div>
+            <div class="chefdetail chefdetail2" onmouseover="addid('chefhover2')" onmouseout="endHover(true)">
+                <div class="chefposition">
+                    <h6>VEGAN</h6>
+                    <h5>Chamber Botfrag</h5>
+                    <p><i class="fa-solid fa-location-dot"></i> Bandung, Indonesia</p>
+                </div>
+                <a href="#" class="detail2">Profile Details ></a>
+            </div>
+            <div class="chefdetail chefdetail3" onmouseover="addid('chefhover3')" onmouseout="endHover(true)">
+                <div class="chefposition">
+                    <h6>ROAST CHICKEN</h6>
+                    <h5>Asep Vandal</h5>
+                    <p><i class="fa-solid fa-location-dot"></i> Sunda, Indonesia</p>
+                </div>
+                <a href="#" class="detail3">Profile Details ></a>
+            </div>
+            <div class="chefdetail chefdetail4" onmouseover="addid('chefhover4')" onmouseout="endHover(true)">
+                <div class="chefposition">
+                    <h6>BEEF STEAK</h6>
+                    <h5>I Made Invoker </h5>
+                    <p><i class="fa-solid fa-location-dot"></i> Bali, Indonesia</p>
+                </div>
+                <a href="#" class="detail4">Profile Details ></a>
+            </div>
+            <div class="viewallchef">
+                <div class="buttonallchef">
+                    <a href="#">View All Chef ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function endHover(isnothover){
+            if(isnothover){
+                document.body.setAttribute('id', '')
+            }
+        }
+        function setHover(isHover,value){
+            if(isHover){
+                document.body.setAttribute('id',value)
+            }
+            else{
+                this.setAttribute('id','')
+            }
+        }
+        function addid(value){
+            document.body.setAttribute('id', value)
+        }
+    </script>
+</body>
+</html>
