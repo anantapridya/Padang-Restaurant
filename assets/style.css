@@ -1,10 +1,10 @@
 @font-face{
     font-family: 'Nunito';
-    src: url(Nunito-Regular.ttf);
+    src: url(./Nunito-Regular.ttf);
 }
 @font-face {
     font-family: 'Poppins';
-    src: url(Poppins-Regular.ttf);
+    src: url(./Poppins-Regular.ttf);
 }
 *{
     padding: 0;
@@ -358,7 +358,7 @@ input:active{
 .photos1{
     width: 400px;
     height: 475px;
-    background-image: url("photos1.svg");
+    background-image: url("./photos1.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -380,7 +380,7 @@ input:active{
 .photos2{
     width: 214px;
     height: 475px;
-    background-image: url("photos2.svg");
+    background-image: url("./photos2.svg");
     background-position: center;
     margin-left: 872px;
     transition: 0.3s;
@@ -389,7 +389,7 @@ input:active{
     margin-right: 0;
     width: 214px;
     height: 475px;
-    background-image: url("photos3.svg");
+    background-image: url("./photos3.svg");
     background-position: center;
     margin-left: 1106px;
     transition: 0.3s;
@@ -496,13 +496,13 @@ input:active{
     margin-right: 15px;
 }
 .img1{
-    background-image: url('restaurant-available1.svg');
+    background-image: url('./restaurant-available1.svg');
 }
 .img2{
-    background-image: url('restaurant-available2.svg');
+    background-image: url('./restaurant-available2.svg');
 }
 .img3{
-    background-image: url('restaurant-available3.svg');
+    background-image: url('./restaurant-available3.svg');
     margin-right: 0;
 }
 .descresto{
@@ -580,7 +580,7 @@ input:active{
 .chefitem{
     width: 660px;
     height: 848px;
-    background-image: url('chef.svg');
+    background-image: url('./chef.svg');
     background-position: center;
     background-repeat: no-repeat;
 }
